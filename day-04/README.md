@@ -38,7 +38,7 @@ To learn how to provision virtual machines in GCP, access them securely, run sta
       --tags=http-server
 
     # SSH into the instance
-    gcloud compute ssh my-firsts-vm --zone=us-central1-f
+    gcloud compute ssh my-first-vm --zone=us-central1-f
 
 ---
 
