@@ -108,3 +108,7 @@ Your Cloud Build pipeline should deploy to GKE but NOT delete clusters.
 - **Always enforce least privilege and audit regularly.**
 
 ---
+Moh's notes
+To Preview the Markdown file
+In VS Code, press:Ctrl + Shift + V
+---
