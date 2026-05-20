@@ -30,7 +30,7 @@ To learn how to provision virtual machines in GCP, access them securely, run sta
 
 ### 🛠️ Launch a VM and Connect via SSH
 
-    gcloud compute instances create devops-vm \
+    gcloud compute instances create my-first-vm \
       --zone=us-central1-a \
       --machine-type=e2-micro \
       --image-family=ubuntu-2004-lts \
@@ -38,7 +38,7 @@ To learn how to provision virtual machines in GCP, access them securely, run sta
       --tags=http-server
 
     # SSH into the instance
-    gcloud compute ssh devops-vm --zone=us-central1-a
+    gcloud compute ssh my-first-vm --zone=us-central1-f
 
 ---
 
