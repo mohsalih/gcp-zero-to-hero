@@ -88,7 +88,7 @@ To test:
 ### 🛠️ Create a Custom Image from Existing VM
 
     # Stop the VM before creating image
-    gcloud compute instances stop nginx-vm --zone=us-central1-a
+    gcloud compute instances stop nginx-vm --zone=us-central1-f
 
     # Create image from disk
     gcloud compute images create nginx-custom-image \
