@@ -72,7 +72,7 @@ IAM roles can be assigned at different levels:
     gcloud config set project $PROJECT_ID
 
     gcloud projects add-iam-policy-binding $PROJECT_ID \
-      --member="user:devops.engineer@example.com" \
+      --member="user:service.bridges@gmail.com" \
       --role="roles/viewer"
 
 ---
