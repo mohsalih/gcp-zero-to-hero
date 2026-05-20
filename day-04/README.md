@@ -31,7 +31,7 @@ To learn how to provision virtual machines in GCP, access them securely, run sta
 ### 🛠️ Launch a VM and Connect via SSH
 
     gcloud compute instances create my-first-vm \
-      --zone=us-central1-a \
+      --zone=us-central1-f \
       --machine-type=e2-micro \
       --image-family=ubuntu-2004-lts \
       --image-project=ubuntu-os-cloud \
@@ -60,7 +60,7 @@ To test:
 ### 🛠️ Install NGINX Automatically via Startup Script
 
     gcloud compute instances create nginx-vm \
-      --zone=us-central1-a \
+      --zone=us-central1-f \
       --machine-type=e2-micro \
       --image-family=ubuntu-2004-lts \
       --image-project=ubuntu-os-cloud \
@@ -93,11 +93,11 @@ To test:
     # Create image from disk
     gcloud compute images create nginx-custom-image \
       --source-disk=nginx-vm \
-      --source-disk-zone=us-central1-a
+      --source-disk-zone=us-central1-f
 
     # Launch a new VM from custom image
     gcloud compute instances create nginx-from-image \
-      --zone=us-central1-a \
+      --zone=us-central1-f \
       --machine-type=e2-micro \
       --image=nginx-custom-image \
       --tags=http-server
