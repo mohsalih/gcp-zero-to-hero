@@ -2,3 +2,4 @@
 
 - Default vs Customer VPC
 - IP ranges, subnet planning (CIDRs)
+- Configure firewall rules (SSH, HTTP)
